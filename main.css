@@ -3,8 +3,7 @@ h1 {
   font-size: 48px;
   font-family: “Geneva”, sans-serif;
   background-color: aliceblue;
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
 }
 
 h2 {
@@ -12,8 +11,7 @@ h2 {
   font-size: 36px;
   font-family: “Geneva”, sans-serif;
   background-color: aliceblue;
-  margin-right: auto;
-  margin-left: auto;
+  text-align: center;
 }
 
 h3 {
