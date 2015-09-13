@@ -1,8 +1,15 @@
+heading {
+  background-color: aliceblue;
+}
+
+project {
+  background-color: snow;
+}
+
 h1 {
   color: black;
   font-size: 48px;
   font-family: “Geneva”, sans-serif;
-  background-color: aliceblue;
   text-align: center;
 }
 
@@ -10,7 +17,6 @@ h2 {
   color: black;
   font-size: 36px;
   font-family: “Geneva”, sans-serif;
-  background-color: aliceblue;
   text-align: center;
 }
 
@@ -18,12 +24,10 @@ h3 {
   color: black;
   font-size: 24px;
   font-family: “Geneva”, sans-serif;
-  background-color: snow;
 }
 
 p {
   color: black;
   font-size: 12px;
   font-family: “Geneva”, sans-serif;
-  background-color: snow;
 }
