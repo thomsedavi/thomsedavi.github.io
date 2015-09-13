@@ -1,9 +1,11 @@
 heading {
-  color: aliceblue;
+  background-color: aliceblue;
+  max-width: 600px;
 }
 
 project {
-  color: snow;
+  background-color: snow;
+  max-width: 600px;
 }
 
 h1 {
