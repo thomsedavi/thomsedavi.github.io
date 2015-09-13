@@ -3,9 +3,20 @@ h1 {
   font-size: 48px;
   font-family: “Geneva”, sans-serif;
   background-color: aliceblue;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 h2 {
+  color: black;
+  font-size: 36px;
+  font-family: “Geneva”, sans-serif;
+  background-color: aliceblue;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h3 {
   color: black;
   font-size: 24px;
   font-family: “Geneva”, sans-serif;
