@@ -1,9 +1,9 @@
-heading {
+.heading {
   background-color: aliceblue;
   max-width: 600px;
 }
 
-project {
+.project {
   background-color: snow;
   max-width: 600px;
 }
