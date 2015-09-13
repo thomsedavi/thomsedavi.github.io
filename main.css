@@ -1,15 +1,20 @@
 h1 {
-  color: red;
+  color: black;
   font-size: 48px;
-
+  font-family: “Geneva”, sans-serif;
+  background-color: aliceblue;
 }
 
 h2 {
-  color: blue;
+  color: black;
   font-size: 24px;
+  font-family: “Geneva”, sans-serif;
+  background-color: snow;
 }
 
 p {
-  color: green;
-   font-size: 12px;
+  color: black;
+  font-size: 12px;
+  font-family: “Geneva”, sans-serif;
+  background-color: snow;
 }
