@@ -1,11 +1,15 @@
 .heading {
   background-color: aliceblue;
-  max-width: 600px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-left: auto;
 }
 
 .project {
   background-color: snow;
-  max-width: 600px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-left: auto;
 }
 
 h1 {
@@ -30,6 +34,6 @@ h3 {
 
 p {
   color: black;
-  font-size: 12px;
+  font-size: 14px;
   font-family: “Geneva”, sans-serif;
 }
