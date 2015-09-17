@@ -1,4 +1,4 @@
-app.controller('MainController', ['$scope', function($scope) {
+app.controller('MainController', function($scope) {
   $scope.title = 'Some Lego Heads';
   $scope.heads = [
   {
@@ -8,4 +8,4 @@ app.controller('MainController', ['$scope', function($scope) {
     code = '3626cpb1313'
   }
   ]
-}]);
+});
