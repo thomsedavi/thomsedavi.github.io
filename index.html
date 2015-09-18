@@ -14,8 +14,8 @@
       <h3>Project 1: Lego head finder</p>
       <p>Have you ever wanted to source a specific Lego head, for example one with an eyepatch and stubble, but didn't want to
       search through the 1,000+ Lego heads in the database? This tool should make it easier for you.</p>
-      <p>Start by iterating over a list in JS. Not super exciting.
-      <br>Does not quite work the way I want yet. :(</p>
+      <p>Start by iterating over a list in JS. Not super exciting. Just text codes for now. Eventually will be a list of heads
+      found by search.</p>
       <div ng-app="myApp" ng-controller="myCtrl">
         <p> {{ title }} </p>
         <div ng-repeat="head in heads"> 
@@ -30,19 +30,11 @@
       and correct it when it suggests that <i>Papillon</i> means <i>Car</i>. Like I said, ambitious.</p>
     </div>
 
-    <script>
-      var app = angular.module('myApp', []);
-      app.controller('myCtrl', function($scope) {
-        $scope.title = 'Some Lego Heads';
-        $scope.heads = [
-        {
-          code: '3626cpb1403'
-        },
-        {
-          code: '3626cpb1313'
-        }
-        ]
-      });    </script>
+    <!-- Modules -->
+    <script src="js/app.js"></script>
+
+    <!-- Controllers -->
+    <script src="js/controllers/MainController.js"></script>
 
     </body>
 </html>
