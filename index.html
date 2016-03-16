@@ -2,39 +2,47 @@
 <html>
   <head>
     <link href="main.css" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
-    <title>David's web playground</title>
+    <title>David's projects</title>
   </head>
   <body>
     <div class = "heading">
-      <h1>David's Playground</h1>
-      <h2>Learning about web design and web apps.</p>
+      <h1>David's Projects</h1>
+      <h3>An &uuml;ber-basic static website for me to list all (all!) the projects I want to work on, with estimated
+        time and difficulty ratings, and how motivated I am to work on them? Just a page for me to record my thoughts,
+        really.</h3>
     </div>
     <div class = "project">
-      <h3>Project 1: Lego head finder</p>
-      <p>Have you ever wanted to source a specific Lego head, for example one with an eyepatch and stubble, but didn't want to
-      search through the 1,000+ Lego heads in the database? This tool should make it easier for you.</p>
-      <p>Start by iterating over a list in JS. Not super exciting. Just text codes for now. Eventually will be a list of heads
-      found by search.</p>
-      <div ng-app="myApp" ng-controller="myCtrl">
-        <p> {{ title }} </p>
-        <div ng-repeat="head in heads"> 
-          <p> {{ head.code }} </p>
-        </div>
-      </div>
+      <h3>Project: This page!</h3>
+      <p>It would be nice for this page to one day be more than just basic HTML?</p>
+      <div class = "difficulty"><p>Difficulty: However complicated I feel like making it (currently, not much,
+        obviously)
+      </p></div>
+      <div class = "time"><p>Time required: See above</p></div>
+      <div class = "motivation"><p>Motivation: Have other priorities right now, but when I want to play with a new web
+        design tool I'll do it here? (Recently tried Node.js but it doesn't run on GitHub pages :( )</p></div>
     </div>
     <div class = "project">
-      <h3>Project 2: Learn a language by teaching a robot language.</p>
+      <h3>Project: Lego head finder</h3>
+      <p>Have you ever wanted to source a specific Lego head, for example one with an eyepatch and stubble, but didn't
+        want to search through the 1,000+ Lego heads in the database? This tool should make it easier for you.</p>
+      <div class = "difficulty"><p>Difficulty: Easy? University project level difficulty</p></div>
+      <div class = "time"><p>Time required: Once the project had been set up, it would require a lot of time to
+        catalogue every single lego head ever, and then maintain that database with new heads :(</p></div>
+      <div class = "motivation"><p>Motivation: The Lego community seems to get on okay without this particular tool?
+      </p></div>
+    </div>
+    <div class = "project">
+      <h3>Project: Learn a language by teaching a robot language.</h3>
       <p>Rather more ambitious! A kind of reverse language learning idea, where you learn by teaching. A robot will ask,
-      'what's the French word for <i>Car</i>', for example, and you do the research yourself. Later on you quiz the robot
-      and correct it when it suggests that <i>Papillon</i> means <i>Car</i>. Like I said, ambitious.</p>
+        'what's the French word for <i>Car</i>', for example, and you do the research yourself. Later on you quiz the
+        robot and correct it when it suggests that <i>Papillon</i> means <i>Car</i>. Like I said, ambitious, especially
+        if you tried teaching it grammar as well...</p>
+      <div class = "difficulty"><p>Difficulty: Potentially super difficult</p></div>
+      <div class = "time"><p>Time required: Could be very quick to begin with, but slowly descend into a spiral of
+        madness.</p></div>
+      <div class = "motivation"><p>Motivation: I think this would be a great tool for me, but would it have any value
+        to other people?
+      </p></div>
     </div>
-
-    <!-- Modules -->
-    <script src="js/app.js"></script>
-
-    <!-- Controllers -->
-    <script src="js/controllers/MainController.js"></script>
-
-    </body>
+  </body>
 </html>

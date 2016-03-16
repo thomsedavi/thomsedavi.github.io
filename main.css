@@ -6,9 +6,9 @@
   border: 2px solid darkblue;
   margin-bottom: 10px;
   padding: 10px;
-}
+ }
 
-.project {
+ .project {
   background-color: snow;
   max-width: 1000px;
   margin-left: auto;
@@ -16,30 +16,41 @@
   border: 2px solid slategray;
   margin-bottom: 10px;
   padding: 10px;
-}
+ }
 
-h1 {
-  color: black;
+ .difficulty {
+  color: brown;
+  font-style: italic;
+ }
+
+ .time {
+  color: blue;
+  font-style: italic;
+ }
+
+ .motivation {
+   color: darkgreen;
+   font-style: italic;
+ }
+
+ h1 {
   font-size: 48px;
   font-family: “Geneva”, sans-serif;
   text-align: center;
-}
+ }
 
-h2 {
-  color: black;
+ h2 {
   font-size: 36px;
   font-family: “Geneva”, sans-serif;
   text-align: center;
-}
+ }
 
-h3 {
-  color: black;
+ h3 {
   font-size: 24px;
   font-family: “Geneva”, sans-serif;
-}
+ }
 
-p {
-  color: black;
+ p {
   font-size: 14px;
   font-family: “Geneva”, sans-serif;
-}
+ }
